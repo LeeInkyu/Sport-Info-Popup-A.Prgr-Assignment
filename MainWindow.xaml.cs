@@ -35,10 +35,37 @@ namespace LayOut
 
         private void CbBx_BaseballTimePicker_Loaded(object sender, RoutedEventArgs e)
         {
-            foreach(var item in baseballTimeList)
+            foreach(var item in TimeList)
             {
                 CbBx_BaseballTimePicker.Items.Add(item);
             }
+        }
+
+        private void CbBx_FootballEventPicker_Loaded(object sender, RoutedEventArgs e)
+        {
+            foreach (var item in footballEventList)
+            {
+                CbBx_FootballEventPicker.Items.Add(item);
+            }
+        }
+
+        private void CbBx_FootballTimePicker_Loaded(object sender, RoutedEventArgs e)
+        {
+            foreach (var item in TimeList)
+            {
+                CbBx_FootballTimePicker.Items.Add(item);
+            }
+        }
+
+        private void CbBx_TypePicker_Loaded(object sender, RoutedEventArgs e)
+        {
+            CbBx_TypePicker.Items.Add("메신저형");
+            CbBx_TypePicker.Items.Add("팝업형");
+        }
+
+        private void BT_Submit_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            //TODO: Submit 로직 구현
         }
     }
 }

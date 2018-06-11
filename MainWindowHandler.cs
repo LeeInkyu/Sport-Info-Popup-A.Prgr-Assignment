@@ -18,7 +18,8 @@ namespace LayOut
     public partial class MainWindow : Window
     {
         string[] baseballEventList = new string[5] { "경기", "이닝 교체", "점수", "타석 교대", "공 하나" };
-        string[] baseballTimeList = new string[5] { "1시간", "30분", "10분", "5분", "시간 알림 사용 안함" };
+        string[] TimeList = new string[5] { "1시간", "30분", "10분", "5분", "시간 알림 사용 안함" };
+        string[] footballEventList = new string[5] { "경기", "전후반 교체", "점수", "주요 세트피스", "모든 세트피스" };
 
     }
 }
