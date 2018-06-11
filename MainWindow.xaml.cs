@@ -65,6 +65,7 @@ namespace LayOut
 
         private void BT_Submit_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            MessageBox.Show("설정 완료");
             //TODO: Submit 로직 구현
         }
     }

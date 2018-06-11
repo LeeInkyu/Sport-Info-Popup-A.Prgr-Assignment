@@ -30,7 +30,7 @@
         <ComboBox x:Name="CbBx_FootballTimePicker" Margin="0" Grid.Row="3" Width="120" VerticalAlignment="Center" Grid.Column="1" Loaded="CbBx_FootballTimePicker_Loaded"/>
 
         <ComboBox x:Name="CbBx_TypePicker" Margin="0" Grid.Row="4" Width="120" VerticalAlignment="Center" Loaded="CbBx_TypePicker_Loaded"/>
-        <Button x:Name="BT_Submit" Content="확인" Grid.Column="1" HorizontalAlignment="Center" Margin="0" Grid.Row="4" VerticalAlignment="Center" Width="75" MouseDown="BT_Submit_MouseDown"/>
+        <Button x:Name="BT_Submit" Content="확인" Grid.Column="1" HorizontalAlignment="Center" Margin="0" Grid.Row="4" VerticalAlignment="Center" Width="75" MouseDown="BT_Submit_MouseDown" MouseDoubleClick="BT_Submit_MouseDown"/>
 
 
     </Grid>
