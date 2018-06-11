@@ -5,10 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LayOut"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="500">
+        Title="MainWindow" Height="300" Width="300">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition />
             <RowDefinition />
             <RowDefinition />
             <RowDefinition />
@@ -18,12 +17,16 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
-            <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
         <Label Content="야구" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="24"/>
         <CheckBox x:Name="CBx_BaseballEnable" Content="사용" Grid.Column="1" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="18"/>
         <ComboBox x:Name="CbBx_BaseballEventPicker" Margin="0" Grid.Row="1" Width="120" VerticalAlignment="Center" Loaded="CbBx_BaseballEventPicker_Loaded"/>
+        <ComboBox x:Name="CbBx_BaseballTimePicker" Margin="0" Grid.Row="1" Width="120" VerticalAlignment="Center" Grid.Column="1" Loaded="CbBx_BaseballTimePicker_Loaded"/>
+
+        <Label Content="축구" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="24" Grid.Row="2"/>
+        <CheckBox x:Name="CBx_FootballEnable" Content="사용" Grid.Column="1" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="18" Grid.Row="2"/>
+
 
     </Grid>
 </Window>

@@ -27,7 +27,18 @@ namespace LayOut
 
         private void CbBx_BaseballEventPicker_Loaded(object sender, RoutedEventArgs e)
         {
-            CbBx_BaseballEventPicker.Items
+            foreach(var item in baseballEventList)
+            {
+                CbBx_BaseballEventPicker.Items.Add(item);
+            }
+        }
+
+        private void CbBx_BaseballTimePicker_Loaded(object sender, RoutedEventArgs e)
+        {
+            foreach(var item in baseballTimeList)
+            {
+                CbBx_BaseballTimePicker.Items.Add(item);
+            }
         }
     }
 }
