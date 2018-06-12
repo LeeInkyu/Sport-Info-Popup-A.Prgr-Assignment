@@ -1,0 +1,15 @@
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut.csprojResolveAssemblyReference.cache
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\MainWindow.g.cs
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\App.g.cs
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut_MarkupCompile.cache
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut_MarkupCompile.lref
+D:\공부_2018\응용 보고서\레이아웃\LayOut\bin\Debug\LayOut.exe.config
+D:\공부_2018\응용 보고서\레이아웃\LayOut\bin\Debug\LayOut.exe
+D:\공부_2018\응용 보고서\레이아웃\LayOut\bin\Debug\LayOut.pdb
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\MainWindow.baml
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut.g.resources
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut.Properties.Resources.resources
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut.csproj.GenerateResource.cache
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut.csproj.CoreCompileInputs.cache
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut.exe
+D:\공부_2018\응용 보고서\레이아웃\LayOut\obj\Debug\LayOut.pdb
